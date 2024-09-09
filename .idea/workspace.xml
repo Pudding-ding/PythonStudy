@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a21e61bf-b8d4-4137-9f3a-8466e50be66c" name="Changes" comment="day2">
-      <change afterPath="$PROJECT_DIR$/study/function_nl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/py_base_b.py" afterDir="false" />
+    <list default="true" id="a21e61bf-b8d4-4137-9f3a-8466e50be66c" name="Changes" comment="day3">
+      <change afterPath="$PROJECT_DIR$/study/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/pack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/pack/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/pack/register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/py_base_c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/py_base_d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/pytestt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/py_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/py_base_a.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +59,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.dic.executor": "Run",
+    "Python.exception.executor": "Run",
     "Python.function_nl.executor": "Run",
     "Python.list.executor": "Run",
     "Python.py_base.executor": "Run",
     "Python.py_base_a.executor": "Run",
     "Python.py_base_b.executor": "Run",
+    "Python.py_base_c.executor": "Run",
     "Python.set.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,31 +80,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.py_base_b">
-    <configuration name="dic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonStudy" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/dic.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeWorkspce\pycharm\PythonStudy\study\pack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.py_base_c">
     <configuration name="function_nl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
@@ -170,6 +158,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="py_base_c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonStudy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\CodeWorkspce\pycharm\PythonStudy\study\py_base_c.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
@@ -196,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.py_base_c" />
         <item itemvalue="Python.py_base_b" />
         <item itemvalue="Python.py_base_a" />
         <item itemvalue="Python.function_nl" />
         <item itemvalue="Python.set" />
-        <item itemvalue="Python.dic" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +235,9 @@
       <workItem from="1724837823878" duration="940000" />
       <workItem from="1725731689004" duration="4470000" />
       <workItem from="1725736199832" duration="14361000" />
-      <workItem from="1725813437279" duration="16258000" />
+      <workItem from="1725813437279" duration="16488000" />
+      <workItem from="1725835499939" duration="79000" />
+      <workItem from="1725843593665" duration="15666000" />
     </task>
     <task id="LOCAL-00001" summary="添加README">
       <option name="closed" value="true" />
@@ -241,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725751267603</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="day3">
+      <option name="closed" value="true" />
+      <created>1725835286859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725835286859</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,19 +274,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -274,15 +284,17 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="添加README" />
     <MESSAGE value="day2" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2" />
+    <MESSAGE value="day3" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonStudy$py_base.coverage" NAME="py_base Coverage Results" MODIFIED="1725736178231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$set.coverage" NAME="set Coverage Results" MODIFIED="1725751231513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$py_base_b.coverage" NAME="py_base_b Coverage Results" MODIFIED="1725835145509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_base_a.coverage" NAME="py_base_a Coverage Results" MODIFIED="1725835199532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$py_base_b.coverage" NAME="py_base_b Coverage Results" MODIFIED="1725835206732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$list.coverage" NAME="list Coverage Results" MODIFIED="1725738362621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$dic.coverage" NAME="dic Coverage Results" MODIFIED="1725746909973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$function_nl.coverage" NAME="function_nl Coverage Results" MODIFIED="1725818427290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$exception.coverage" NAME="py_base_c Coverage Results" MODIFIED="1725873639257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
   </component>
 </project>
