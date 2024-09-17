@@ -41,4 +41,26 @@
 # print(wa2)
 # #内存地址不一样，说明是不同的对象，可以实例化多个对象
 
+#2.4实例方法和实例属性
+#2.4.1 实例方法
+#由对象调用，至少有一个self参数，执行实例方法的时候，自动将调用该方法的对象赋值给self
+class washer:
+    height = 800  #类属性
+    def wash(self):  #self擦拭农户是类中的实例方法必须具备的
+        print('我会洗衣服')
+        print('方法中的self:',self)  #self表示当前调用该方法的对象
+#实例化对象
+wa = washer()
+print('wa:',wa)
+#对象调用类中方法
+wa.wash()
+wa2 = washer()
+print('wa2:',wa2)
+wa2.wash()
+#self代表对象本身，当对象调用实例方法时，
+#python会自动将对象本身引用作为参数，传递到实例方法的第一个参数self里面
+
+
+
+
 
