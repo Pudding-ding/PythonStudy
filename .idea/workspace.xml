@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a21e61bf-b8d4-4137-9f3a-8466e50be66c" name="Changes" comment="day10">
+    <list default="true" id="a21e61bf-b8d4-4137-9f3a-8466e50be66c" name="Changes" comment="测试题目">
+      <change afterPath="$PROJECT_DIR$/RL_MJS/PI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/group_anagrams_49.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leecode/two_sum_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/q_test/Three_card_poker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/q_test/Three_card_poker_end.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/pack/pid_figure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/xinxironghe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips" beforeDir="false" afterPath="$PROJECT_DIR$/tips" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +28,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -50,10 +64,19 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.PI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Three_card_poker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Three_card_poker_end.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arguement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.break_continue.executor&quot;: &quot;Debug&quot;,
     &quot;Python.dic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dog.executor&quot;: &quot;Run&quot;,
     &quot;Python.exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function.executor&quot;: &quot;Run&quot;,
     &quot;Python.function_nl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.group_anagrams_49.executor&quot;: &quot;Run&quot;,
     &quot;Python.list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pid_figure.executor&quot;: &quot;Run&quot;,
     &quot;Python.py_base.executor&quot;: &quot;Run&quot;,
     &quot;Python.py_base_a.executor&quot;: &quot;Run&quot;,
     &quot;Python.py_base_b.executor&quot;: &quot;Run&quot;,
@@ -65,11 +88,14 @@
     &quot;Python.py_nl_d.executor&quot;: &quot;Run&quot;,
     &quot;Python.py_nl_e.executor&quot;: &quot;Run&quot;,
     &quot;Python.py_nl_f.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qq.executor&quot;: &quot;Run&quot;,
     &quot;Python.set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.two_sum_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xinxironghe.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkspce/pycharm/MachineStudy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkspce/pycharm/RL_task_practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,8 +110,8 @@
       <recent name="D:\CodeWorkspce\pycharm\PythonStudy\study\pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.py_nl_f">
-    <configuration name="py_nl_b" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.group_anagrams_49">
+    <configuration name="PI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,12 +121,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RL_MJS" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/py_nl_b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL_MJS/PI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py_nl_c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="group_anagrams_49" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,12 +145,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leecode" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/py_nl_c.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leecode/group_anagrams_49.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py_nl_d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="pid_figure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,12 +169,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study/pack" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/py_nl_d.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/pack/pid_figure.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py_nl_e" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="two_sum_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,12 +193,12 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leecode" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/py_nl_e.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leecode/two_sum_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py_nl_f" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="xinxironghe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +222,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/py_nl_f.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/xinxironghe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.py_nl_f" />
-        <item itemvalue="Python.py_nl_e" />
-        <item itemvalue="Python.py_nl_d" />
-        <item itemvalue="Python.py_nl_c" />
-        <item itemvalue="Python.py_nl_b" />
+        <item itemvalue="Python.group_anagrams_49" />
+        <item itemvalue="Python.two_sum_1" />
+        <item itemvalue="Python.pid_figure" />
+        <item itemvalue="Python.PI" />
+        <item itemvalue="Python.xinxironghe" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +271,41 @@
       <workItem from="1727356572062" duration="1268000" />
       <workItem from="1727445711108" duration="171000" />
       <workItem from="1727445942962" duration="22000" />
-      <workItem from="1728377855854" duration="644000" />
+      <workItem from="1728377855854" duration="1002000" />
+      <workItem from="1730723823450" duration="1701000" />
+      <workItem from="1730725550002" duration="4702000" />
+      <workItem from="1731838472390" duration="8340000" />
+      <workItem from="1731856481732" duration="1095000" />
+      <workItem from="1731897646161" duration="176000" />
+      <workItem from="1731924631508" duration="854000" />
+      <workItem from="1731925569663" duration="8318000" />
+      <workItem from="1732013063267" duration="7079000" />
+      <workItem from="1732099810029" duration="10227000" />
+      <workItem from="1732257452391" duration="651000" />
+      <workItem from="1732285002173" duration="1083000" />
+      <workItem from="1733225312640" duration="2000" />
+      <workItem from="1733316734365" duration="5129000" />
+      <workItem from="1734138972937" duration="906000" />
+      <workItem from="1734329933057" duration="2000" />
+      <workItem from="1734350343563" duration="362000" />
+      <workItem from="1734354721446" duration="1020000" />
+      <workItem from="1734356360047" duration="3000" />
+      <workItem from="1734671103222" duration="3466000" />
+      <workItem from="1735040491255" duration="607000" />
+      <workItem from="1735276191266" duration="856000" />
+      <workItem from="1735821023563" duration="673000" />
+      <workItem from="1735884623890" duration="1604000" />
+      <workItem from="1735974359326" duration="6352000" />
+      <workItem from="1736250507202" duration="1773000" />
+      <workItem from="1737029931650" duration="76000" />
+      <workItem from="1737100850690" duration="19000" />
+      <workItem from="1748262180493" duration="625000" />
+      <workItem from="1748320696674" duration="5578000" />
+      <workItem from="1748956462010" duration="3131000" />
+      <workItem from="1749789940568" duration="597000" />
+      <workItem from="1749877077926" duration="6853000" />
+      <workItem from="1750051801816" duration="4530000" />
+      <workItem from="1750075837576" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="添加README">
       <option name="closed" value="true" />
@@ -327,7 +387,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726931702798</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day11">
+      <option name="closed" value="true" />
+      <created>1728381957727</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728381957727</updated>
+    </task>
+    <task id="LOCAL-00012" summary="测试题目">
+      <option name="closed" value="true" />
+      <created>1732013242940</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732013242940</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,23 +432,37 @@
     <MESSAGE value="day8" />
     <MESSAGE value="day9" />
     <MESSAGE value="day10" />
-    <option name="LAST_COMMIT_MESSAGE" value="day10" />
+    <MESSAGE value="day11" />
+    <MESSAGE value="测试题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试题目" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonStudy$py_nl_a.coverage" NAME="py_nl-a Coverage Results" MODIFIED="1726568669583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$function.coverage" NAME="function Coverage Results" MODIFIED="1730727094805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_base_a.coverage" NAME="py_base_a Coverage Results" MODIFIED="1725835199532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$dog.coverage" NAME="dog Coverage Results" MODIFIED="1731935838698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_test" />
+    <SUITE FILE_PATH="coverage/PythonStudy$xinxironghe.coverage" NAME="xinxironghe Coverage Results" MODIFIED="1735885588363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$py_nl_e.coverage" NAME="py_nl_e Coverage Results" MODIFIED="1726930691565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1750064314008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leecode" />
+    <SUITE FILE_PATH="coverage/PythonStudy$py_nl_f.coverage" NAME="py_nl_f Coverage Results" MODIFIED="1727356584358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$list.coverage" NAME="list Coverage Results" MODIFIED="1731840052525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$py_nl_c.coverage" NAME="py_nl_c Coverage Results" MODIFIED="1726756941334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$function_nl.coverage" NAME="function_nl Coverage Results" MODIFIED="1725818427290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$dic.coverage" NAME="dic Coverage Results" MODIFIED="1730726995915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$exception.coverage" NAME="py_base_c Coverage Results" MODIFIED="1725873639257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$Three_card_poker_end.coverage" NAME="Three_card_poker_end Coverage Results" MODIFIED="1734350348364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_test" />
+    <SUITE FILE_PATH="coverage/PythonStudy$py_nl_a.coverage" NAME="py_nl-a Coverage Results" MODIFIED="1726568669583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$qq.coverage" NAME="qq Coverage Results" MODIFIED="1731924768278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_test" />
     <SUITE FILE_PATH="coverage/PythonStudy$set.coverage" NAME="set Coverage Results" MODIFIED="1725751231513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$arguement.coverage" NAME="arguement Coverage Results" MODIFIED="1730726113489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_nl_d.coverage" NAME="py_nl_d Coverage Results" MODIFIED="1726922769215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_base_e.coverage" NAME="py_base_e Coverage Results" MODIFIED="1726058639919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$py_nl_e.coverage" NAME="py_nl_e Coverage Results" MODIFIED="1726930691565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$pid_figure.coverage" NAME="pid_figure Coverage Results" MODIFIED="1748956507499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study/pack" />
+    <SUITE FILE_PATH="coverage/PythonStudy$PI.coverage" NAME="PI Coverage Results" MODIFIED="1748351577248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RL_MJS" />
+    <SUITE FILE_PATH="coverage/PythonStudy$two_sum_1.coverage" NAME="two_sum_1 Coverage Results" MODIFIED="1749883610950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leecode" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_base.coverage" NAME="py_base Coverage Results" MODIFIED="1725736178231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$Three_card_poker.coverage" NAME="Three_card_poker Coverage Results" MODIFIED="1733318900268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_test" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_base_b.coverage" NAME="py_base_b Coverage Results" MODIFIED="1725835206732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$py_nl_f.coverage" NAME="py_nl_f Coverage Results" MODIFIED="1727356584358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$break_continue.coverage" NAME="break_continue Coverage Results" MODIFIED="1730724828495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_nl_b.coverage" NAME="py_nl_b Coverage Results" MODIFIED="1726669472910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$list.coverage" NAME="list Coverage Results" MODIFIED="1725738362621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$py_nl_c.coverage" NAME="py_nl_c Coverage Results" MODIFIED="1726756941334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$dic.coverage" NAME="dic Coverage Results" MODIFIED="1725746909973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$function_nl.coverage" NAME="function_nl Coverage Results" MODIFIED="1725818427290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$exception.coverage" NAME="py_base_c Coverage Results" MODIFIED="1725873639257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
   </component>
 </project>

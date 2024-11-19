@@ -91,3 +91,4 @@ print(lo.lower())  #dingding
 # 3.3.5 upper():小写字母转为大写
 up = 'dINgdiNg'
 print(up.upper())  #DINGDING
+# ca\lo\up是同一个类吗
