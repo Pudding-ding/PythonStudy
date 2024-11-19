@@ -89,6 +89,7 @@ if __name__ == '__main__':
         #li61.append(i)
     # print(li61)
     [li61.append(i) for i in range(1,6)]
+    print('range(0,6)-->[0,6)中的所有整数')
     print(li61)   #与88-90行注释部分效果一样
 
     #4.6.2格式二：[表达式 for 变量 in 列表 if 条件]
