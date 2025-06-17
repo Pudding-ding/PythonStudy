@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a21e61bf-b8d4-4137-9f3a-8466e50be66c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/leecode/longest_consecutive_sequence_128.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leecode/move_zeroes_283.py" afterDir="false" />
+    <list default="true" id="a21e61bf-b8d4-4137-9f3a-8466e50be66c" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/leecode/container_with_most_water_11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,57 +55,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.PI.executor": "Run",
-    "Python.Three_card_poker.executor": "Run",
-    "Python.Three_card_poker_end.executor": "Run",
-    "Python.arguement.executor": "Run",
-    "Python.break_continue.executor": "Debug",
-    "Python.dic.executor": "Run",
-    "Python.dog.executor": "Run",
-    "Python.exception.executor": "Run",
-    "Python.function.executor": "Run",
-    "Python.function_nl.executor": "Run",
-    "Python.group_anagrams_49.executor": "Run",
-    "Python.list.executor": "Run",
-    "Python.longest_consecutive_sequence_128.executor": "Run",
-    "Python.move_zeroes_283.executor": "Run",
-    "Python.pid_figure.executor": "Run",
-    "Python.py_base.executor": "Run",
-    "Python.py_base_a.executor": "Run",
-    "Python.py_base_b.executor": "Run",
-    "Python.py_base_c.executor": "Run",
-    "Python.py_base_e.executor": "Run",
-    "Python.py_nl-a.executor": "Run",
-    "Python.py_nl_b.executor": "Run",
-    "Python.py_nl_c.executor": "Run",
-    "Python.py_nl_d.executor": "Run",
-    "Python.py_nl_e.executor": "Run",
-    "Python.py_nl_f.executor": "Run",
-    "Python.qq.executor": "Run",
-    "Python.set.executor": "Run",
-    "Python.two_sum_1.executor": "Run",
-    "Python.xinxironghe.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/CodeWorkspce/pycharm/RL_task_practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.PI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Three_card_poker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Three_card_poker_end.executor&quot;: &quot;Run&quot;,
+    &quot;Python.arguement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.break_continue.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.container_with_most_water_11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function_nl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.group_anagrams_49.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.longest_consecutive_sequence_128.executor&quot;: &quot;Run&quot;,
+    &quot;Python.move_zeroes_283.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pid_figure.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_base_a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_base_b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_base_c.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_base_e.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_nl-a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_nl_b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_nl_c.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_nl_d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_nl_e.executor&quot;: &quot;Run&quot;,
+    &quot;Python.py_nl_f.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.two_sum_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.xinxironghe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkspce/pycharm/RL_task_practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CodeWorkspce\pycharm\PythonStudy\study\pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.move_zeroes_283">
+  <component name="RunManager" selected="Python.container_with_most_water_11">
+    <configuration name="container_with_most_water_11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonStudy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leecode" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leecode/container_with_most_water_11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="group_anagrams_49" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
@@ -179,30 +203,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pid_figure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonStudy" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study/pack" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/pack/pid_figure.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="two_sum_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonStudy" />
       <option name="ENV_FILES" value="" />
@@ -229,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.container_with_most_water_11" />
         <item itemvalue="Python.move_zeroes_283" />
         <item itemvalue="Python.longest_consecutive_sequence_128" />
         <item itemvalue="Python.group_anagrams_49" />
         <item itemvalue="Python.two_sum_1" />
-        <item itemvalue="Python.pid_figure" />
       </list>
     </recent_temporary>
   </component>
@@ -302,6 +302,7 @@
       <workItem from="1749877077926" duration="6853000" />
       <workItem from="1750051801816" duration="4530000" />
       <workItem from="1750075837576" duration="4800000" />
+      <workItem from="1750148003403" duration="1603000" />
     </task>
     <task id="LOCAL-00001" summary="添加README">
       <option name="closed" value="true" />
@@ -415,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750077263148</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1">
+      <option name="closed" value="true" />
+      <created>1750148178187</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750148178187</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,12 +456,13 @@
     <MESSAGE value="day11" />
     <MESSAGE value="测试题目" />
     <MESSAGE value="xuexi" />
-    <option name="LAST_COMMIT_MESSAGE" value="xuexi" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonStudy$function.coverage" NAME="function Coverage Results" MODIFIED="1730727094805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/PythonStudy$py_base_a.coverage" NAME="py_base_a Coverage Results" MODIFIED="1725835199532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$longest_consecutive_sequence_128.coverage" NAME="longest_consecutive_sequence_128 Coverage Results" MODIFIED="1750081458096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leecode" />
+    <SUITE FILE_PATH="coverage/PythonStudy$py_base_a.coverage" NAME="py_base_a Coverage Results" MODIFIED="1725835199532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$dog.coverage" NAME="dog Coverage Results" MODIFIED="1731935838698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_test" />
     <SUITE FILE_PATH="coverage/PythonStudy$xinxironghe.coverage" NAME="xinxironghe Coverage Results" MODIFIED="1735885588363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_nl_e.coverage" NAME="py_nl_e Coverage Results" MODIFIED="1726930691565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
@@ -465,6 +475,7 @@
     <SUITE FILE_PATH="coverage/PythonStudy$exception.coverage" NAME="py_base_c Coverage Results" MODIFIED="1725873639257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$Three_card_poker_end.coverage" NAME="Three_card_poker_end Coverage Results" MODIFIED="1734350348364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_test" />
     <SUITE FILE_PATH="coverage/PythonStudy$py_nl_a.coverage" NAME="py_nl-a Coverage Results" MODIFIED="1726568669583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PythonStudy$container_with_most_water_11.coverage" NAME="container_with_most_water_11 Coverage Results" MODIFIED="1750149046359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leecode" />
     <SUITE FILE_PATH="coverage/PythonStudy$qq.coverage" NAME="qq Coverage Results" MODIFIED="1731924768278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q_test" />
     <SUITE FILE_PATH="coverage/PythonStudy$set.coverage" NAME="set Coverage Results" MODIFIED="1725751231513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PythonStudy$arguement.coverage" NAME="arguement Coverage Results" MODIFIED="1730726113489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
