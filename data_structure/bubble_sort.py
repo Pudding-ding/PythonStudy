@@ -1,5 +1,7 @@
 import random
+from cal_time import *
 
+@cal_time
 def bubble_sort(li):
     for i in range(len(li)-1):  #第一趟
         exchange = False
@@ -7,12 +9,14 @@ def bubble_sort(li):
             if li[j] > li[j+1]:
                 li[j], li[j+1] = li[j+1], li[j] #交换
                 exchange = True
-        print(li)
+        # print(li)
         if not exchange:
             return
 
 
-# li = [random.randint(0,10000) for i in range(1000)]
+# li = list(range(10000))
+# random.shuffle(li)
+
 # print(li)
 # bubble_sort(li)
 # print(li)
